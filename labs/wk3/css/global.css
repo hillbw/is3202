@@ -1,0 +1,311 @@
+/* styles added during tutorial */
+
+img {
+	border: none;
+}
+
+a {
+	color: #EC6206;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #779A00;
+	text-decoration: none;
+}
+
+/* reset styles */
+
+h1, h2, h3, h4, p, ul, ol, blockquote, form {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	 padding-left: 1em;
+	 margin-left: 0;
+}
+
+body {
+	font: 100% Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF url(../images/bgPage.png) repeat;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0 0 15px 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.clearAll {
+	clear: both;
+}
+
+.container {
+	width: 860px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 0 15px 3px 15px;
+	-webkit-box-shadow: 2px 2px 2px #999; /* safari */
+	-moz-box-shadow: #999 2px 2px 2px; /* firefox 3.1 */
+	background-color: #FFFFFF;
+}
+
+.header {
+	padding: 0;
+	border-top: 6px solid #F63;
+	background: url(../images/bgGrass.jpg) no-repeat left bottom;
+	height: 142px;
+	position: relative;
+} 
+#logo {
+	margin: 0 0 38px 0;
+}
+
+
+
+#mainWrapper {
+	margin: 0;
+	padding: 0 0 3px 0;
+	background-color: #FFFFFF;
+	background-image: url(../images/bgMainWrapper.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.content h1 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+.content h1 strong {
+	font-weight: normal;
+	color: #EC6206;
+}
+.content p {
+	font-size: 14px;
+	line-height: 130%;
+	margin: 5px 0 0 0;
+}
+.content .tagline {
+	font: 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-bottom: 1px solid #EC6206;
+	padding-bottom: 5px;
+	margin: -2px 0 25px 0;
+	color: #779A00;
+}
+.content h2 {
+	font-weight: normal;
+	font-size: 22px;
+	margin: 20px 0 0;
+	border-bottom: 1px solid #EC6206;
+	color: #638000;
+}
+.sidebar1 h2 {
+	font-size: 16px;
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+.sidebar1 h3 {
+	color: #EC6206;
+	font-size: 14px;
+	border-top: 1px solid #999;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 2px;
+	margin: 20px 0 0 0;
+}
+.sidebar1 p {
+	font: 14px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-top: 7px;
+	margin-bottom: 0px;
+}
+#services .sidebar1 {
+	background-image: url(../images/bgFacts.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 55px;
+}
+
+#tips .sidebar1 {
+	padding-top: 65px;
+	background: #EAEBE4 url(../images/bgQnA.png) no-repeat center top;
+}
+
+.footer p {
+	font-size: 12px;
+}
+
+
+.footer .copyright{
+	font-size: 10px;
+	color: #999;
+	line-height: 130%;
+	margin: 10px 0 0 0;
+}
+#footerCol1 {
+	float: left;
+	width: 270px;
+	padding: 10px;
+}
+
+#footerCol1 blockquote {
+	background: url(../images/quoteBubble.png) no-repeat;
+	height: 60px;
+	width: 270px;
+	margin: 0px;
+	padding: 15px 0px 0px;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+}
+
+
+#footerCol2 {
+	float: left;
+	width: 290px;
+	padding: 20px 10px 0 70px;
+	margin-left: 35px;
+	background: url(../images/vetLogo.png) no-repeat 0px 15px;
+}
+#footerCol3 {
+	background: url(../images/bgFooterDiv.png) no-repeat 0 27px;
+	font-weight: bold;
+	padding: 20px 0 0 20px;
+	float: left;
+}
+
+
+#footerCol3 strong {
+	color: #EC6206;
+}
+
+
+#signup label, #question label, #appt label {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size:12px;
+	display: block;
+	margin-top: 10px;
+}
+#signup #submit {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+#signup #email, #signup #name {
+	width: 250px;
+	background-color: #DBF3FF;
+	border: 1px solid #779A00;
+	font-size: 16px;
+}
+
+#question input, #question textarea {
+	width: 240px;
+	border: 1px solid #779A00;
+	font-size: 16px;
+}
+
+#question input#submitQuestion, #appt input#submitAppt {
+	width: auto;
+	background-color: #FF9933;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 14px;
+}
+p#askLogo {
+	text-align: center;
+	margin-top: 15px;
+}
+.sidebar1 dt {
+	margin-bottom: 5px;
+	font: bold 14px/115% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.sidebar1 dl strong {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #EC6211;
+	font-size: 14px;
+}
+.sidebar1 dd.seperator {
+	background: url(../images/separator.png) no-repeat center bottom;
+	padding-bottom: 25px;
+}
+.sidebar1 dd {
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	line-height: 130%;
+}
+
+.announcement{
+	padding: 10px;
+	width: 210px;
+	border: 3px solid #9ABF13;
+	float: right;
+}
+.content .announcement h2 {
+	font-size: 20px;
+	margin: 0px;
+}
+.content .announcement p {
+	font-size: 12px;
+}
+.content div.masterList {
+	float: left;
+	width: 350px;
+	font-size: 14px;
+}
+.content div.details {
+	margin-left: 375px;
+	padding: 10px;
+	border: 2px solid #000;
+}
+
+.select {
+	background: #EC6211;
+}
+.content .details ul {
+	font-size: 14px;
+	margin-left: 250px;
+}
+.content .details li {
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.masterList table td, .masterList table th {
+	border: 1px solid #CCC;
+	padding: 3px;
+}
+.masterList th {
+	color: #FFF;
+	background: #333;
+}
+#results p em {
+	color: #C00;
+}
+.sectionLinks a {
+	color: #EC6206;
+	text-decoration: none;
+}
+.sectionLinks li {
+	padding-left: 10px;
+	margin-bottom: 25px;
+	list-style-type: square;
+}
+.header #signup {
+	margin: 0px;
+	border-left: 1px solid #CAE0EC;
+	border-right: 2px solid #CAE0EC;
+	border-top: 1px solid #CAE0EC;
+	border-bottom: 2px solid #CAE0EC;
+	width: 255px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #EDEEE8;
+	z-index: 100;
+	background-color: #EDEEE8;
+	margin: 0px;
+	padding: 4px 10px 6px 10px;
+	font-size: 12px;
+}
