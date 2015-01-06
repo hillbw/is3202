@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Page Title</title>
+</head>
+<body>
+	<section>
+		<h1>HTML Basic</h1>
+		<h2>This is a level 2 heading</h2>
+		<h3>This is a level 3 heading</h3>
+		<h4>...And this one is level 4</h4>
+
+		<p>This is a paragraph</p>
+		<p>And another paragraph</p>
+		<p>The source code for this document is stashed <a href="https://github.com/hillbw/is3202">here</a> on GitHub.</p>
+		<figure>
+			<img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg" alt="Grand Teton National Park" width="500px">
+			<figcaption>I'd rather be here... Compliments of <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>.</figcaption>
+		</figure>
+	</section>
+
+	<section>
+		<h1>HTML Attributes</h1>
+		<p title="The Classic Filler Gibberish, Samuel L. Jackson Style">Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
+		<p>The above paragraph shows a tooltip on mouseover because it has a <code>title</code> attribute. More quotes available at <a href="http://slipsum.com/lite/">Samuel L. Ipsum</a>.</p>
+
+		<p>You can adjust the size of an image using the <code>width</code> and <code>height</code> attributes:</p>
+		<figure>
+			<img src="https://octodex.github.com/images/topguntocat.png" width="50" alt="GitHub Octocat plays Maverick">
+			<figcaption><code>width="50"</code></figcaption>
+		</figure>
+		<figure>
+			<img src="https://octodex.github.com/images/topguntocat.png" width="100" alt="GitHub Octocat plays Maverick">
+			<figcaption><code>width="100"</code></figcaption>
+		</figure>
+		<figure>
+			<img src="https://octodex.github.com/images/topguntocat.png" width="200" alt="GitHub Octocat plays Maverick">
+			<figcaption><code>width="200"</code></figcaption>
+		</figure>
+		<figure>
+			<img src="https://octodex.github.com/images/topguntocat.png" width="400" alt="GitHub Octocat plays Maverick">
+			<figcaption><code>width="400"</code></figcaption>
+		</figure>
+
+		<p>Also, remember that you can flip-flop double and single quotes to include quotes in attributes, like so:</p>
+		<pre>&lt;p title='John "ShotGun" Nelson'&gt;</pre>
+		<pre>&lt;p title="John 'ShotGun' Nelson"&gt;</pre>
+	</section>
+
+	<section>
+		<h1>HTML Styles</h1>
+		<p style="color: #93a1a1; background-color: #002b36; font-family: Verdana, monospace; padding: 25px; line-height: 1.5">This paragraph is an example of inline CSS. Though generally a bad practice, it does have its moments to shine, as it is here. The colors are from the <a href="http://ethanschoonover.com/solarized" style="color: #d33682;">Solarized</a> color scheme.</p>
+	</section>
+	<section>
+		<h1>HTML Formatting</h1>
+		<p>The <strong>Pythagorean theorem</strong> is: <em>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></em></p>
+		<p>Now, let's try editing the above <mark>warning</mark> against CSS<sub><i>i</i></sub> (mathematical notation for inline CSS):</p>
+		<p style="color: #93a1a1; background-color: #002b36; font-family: Verdana, monospace; padding: 25px; line-height: 1.5">This paragraph is an example of inline CSS. Though generally a <del style="color: #dc322f;">bad</del> <ins style="color: #268bd2;"><i>great</i></ins> practice, it does have its moments to shine, as it is here. The colors are from the <a href="http://ethanschoonover.com/solarized" style="color: #d33682;">Solarized</a> color scheme.</p>
+
+	</section>
+</body>
+</html>
