@@ -3,24 +3,46 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Chia Tips</title>
-
-  <!-- Twitter Bootstrap Framework -->
-
-
-  <!-- Textbook CSS -->
   <link href="css/twoColFixRtHdr.css" rel="stylesheet" type="text/css" />
   <link href="css/global.css" rel="stylesheet" type="text/css" />
+  <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+  <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body id="tips">
-<div class="contain">
+<div class="container">
   <div class="header">
     <p id="logo"><a href="index.html"><img src="images/logo.png" width="533" height="73" alt="Chia Vet" /></a> 
       <!-- end .header --> 
     </p>
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="meet_vets.html">Meet the Vets</a></li>
+    <li><a href="services/index.html" class="MenuBarItemSubmenu">Services</a>
+      <ul>
+        <li><a href="services/preventative.html">Preventative Care</a></li>
+        <li><a href="services/boarding.html">Boarding</a></li>
+        <li><a href="services/emergency.html">Emergency Services</a></li>
+      </ul>
+    </li>
+    <li><a href="about/index.html" class="MenuBarItemSubmenu">About Us</a>
+      <ul>
+        <li><a href="about/history.html">History</a></li>
+        <li><a href="about/facilities.html" class="MenuBarItemSubmenu">Facilities</a>
+          <ul>
+            <li><a href="about/patient.html">Patient Care</a></li>
+            <li><a href="about/research.html">Chia Research Institute</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="directions.html">Directions</a></li>
+    <li><a href="tips.html">Chia Tips</a></li>
+  </ul>
     <div id="signup"> <a href="newsletter.html">+ Sign up for our newsletter!</a></div>
   </div>
-  <div class="mainContainer">
+  
+<div class="mainContainer">
     <div class="sidebar1">
       <h2>Got  a question?<br />
         We have answers. </h2>
@@ -88,5 +110,8 @@
     <!-- end .footer --> 
   </div>
   <!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
 </body>
 </html>
