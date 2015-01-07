@@ -284,3 +284,12 @@ p#askLogo {
 	margin-bottom: 25px;
 	list-style-type: square;
 }
+#appointment .question {
+	font-weight: bold;
+	display: block;
+	margin-top: 15px;
+	padding-top: 5px;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #9bbf13;
+}
