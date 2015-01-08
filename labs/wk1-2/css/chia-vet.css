@@ -1,0 +1,53 @@
+body {
+	color: #003366;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url('../img/bgPage.png');
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+h1 {
+	color: #EC6206;
+}
+
+h3 {
+	color: #779A00;
+	font-style: italic;
+}
+
+a {
+	color: #EC6206;
+}
+
+a:visited {
+	color: #93BD00;
+}
+
+a:hover {
+	color: #779A00;
+}
+
+a:active {
+	color: #CAE0EC;
+}
+
+.copyright {
+	font-size: 12px;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+#wrapper {
+	width: 860px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+}

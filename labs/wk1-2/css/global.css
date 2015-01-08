@@ -1,0 +1,35 @@
+h1 {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	color: #779A00;
+	font-size: 48px;
+	font-weight: normal;
+	border-top: solid 7px #FF9933;
+	border-bottom: solid 2px #FF9933;
+	padding-top: 5px;
+}
+
+h2 {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	color: #EC6206;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+p {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 5px;
+	margin-left: 75px;
+}
+
+.copyright {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	border-top: dashed 1px #93BD00;
+	padding-top: 5px;
+	margin-top: 25px;
+	margin-left: 0px;
+}
