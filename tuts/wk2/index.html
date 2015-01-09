@@ -57,11 +57,42 @@
 		<p>Now, let's try editing the above <mark>warning</mark> against CSS<sub><i>i</i></sub> (mathematical notation for inline CSS):</p>
 		<p style="color: #93a1a1; background-color: #002b36; font-family: Verdana, monospace; padding: 25px; line-height: 1.5">This paragraph is an example of inline CSS. Though generally a <del style="color: #dc322f;">bad</del> <ins style="color: #268bd2;"><i>great</i></ins> practice, it does have its moments to shine, as it is here. The colors are from the <a href="http://ethanschoonover.com/solarized" style="color: #d33682;">Solarized</a> color scheme.</p>
 	</section>
+
 	<section>
 		<h1>HTML Quotations and Citations</h1>
 		<p>A quick interlude from Mr. Kerouac, formatted using the <code>&lt;q&gt;</code> tag: <q>the only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars. </q></p>
 		<p>Which can alternatively be formatted using <code>&lt;blockquote&gt;</code> tags, like so: <blockquote cite="https://www.goodreads.com/author/quotes/1742.Jack_Kerouac">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</blockquote>
 		<p>One <abbr title="Gigabyte">GB</abbr> is equivalent to 1000 Megabytes.</p>
+		<p>Kids these days with their Tweets and wall posts and instant messages, they have no respect for <dfn title="The physical world, as opposed to cyberspace or a virtual environment.">meatspace</dfn> anymore! However, in case it comes in handy, my address in meatspace is:</p>
+		<address>
+			123 Realism Ave.<br>
+			Poughkeepsie, NY
+		</address>
+	</section>
+
+	<section>
+		<h1>HTML Computer Code Elements</h1>
+		<h2>HTML Keyboard Formatting</h2>
+		<p>To copy some text, mash: <kbd>Ctrl+C</kbd></p>
+		<h2>HTML Sample Formatting</h2>
+		<p>The output of the <code>man svn</code> command is:</p>
+		<samp>
+			$ ls
+			total 16
+			-rw-r--r--  1 someuser  staff   5.0K Jan  8 22:22 index.html
+		</samp>
+		<h2>HTML Code Formatting</h2>
+		<p>To display inline code, such as <code>dfc <- dcast(df, file ~ variable)</code>, one should use the <code>code</code> tag. However, for paragraph-style formatting, one should use the <code>pre</code> tag:</p>
+		<pre>save.for.print <- function(image.folder, use.case, file.name){
+  ggsave(file=file.path(image.folder, paste0(use.case, "-", file.name, ".pdf")), width=6, height=3.25, units="in")  
+}</pre>
+		<p>A mathematical variable looks like this: <var>x</var>
+	</section>
+
+	<section>
+		<h1>HTML Comments</h1>
+		<p>I bet you can't see the following paragraph! (That's because it's commented out...)</p>
+		<!-- <p>No-see-um paragraph</p> -->
 	</section>
 </body>
 </html>
