@@ -1,0 +1,396 @@
+body  {
+	font: 100% Trebuchet MS;
+	background: #666666 url(../images/leaf_bg.gif);
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+
+#container {
+	width: 780px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 0;
+	background: #FFF url(../images/bg_wrapper.gif) repeat-y;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 10px solid #000;
+}
+
+
+/* header styles */
+
+#header {
+	background: #EEEEEE url(../images/bg_banner.gif) repeat-x;
+	position: relative;
+	border-bottom: 4px solid #18347A;
+	zoom: 1;
+}
+
+#header img {
+	display: block;
+}	
+
+#sitetools {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#sitetools li {
+	display: inline;
+	float: right;
+	margin-right: 5px;
+	padding-bottom: 0.5em;
+}
+#sitetools li a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 3em;
+	background: #1B3A89;
+	padding: 5px;
+	height: 2em;
+	border: 1px solid #4D69B0;
+	font-weight: bold;
+}
+
+#sitetools li a:hover {
+	color: #10214E;
+	background: #DCE5FF;
+}
+
+#tagline {
+	position: absolute;
+	color: #FDD774;
+	top: 67px;
+	left: 497px;
+	font: 15px "Trebuchet MS";
+}
+
+/* MAIN */
+
+#mainContent a {
+	text-decoration: none;
+	border-bottom: 1px dashed #B2F511;
+	color: #152D6A;
+}
+
+#mainContent h1 {
+	color: #152D6A;
+	border-bottom: 2px solid #B2F511;
+	font: normal 28px Impact, "Arial Narrow", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	margin: 0 0 5px 0;
+}
+
+#mainContent h2 {
+	font: normal 22px Georgia, "Times New Roman", Times, serif;
+	margin-top: 15px;
+	margin-bottom: 3px;
+	color: #D60000;
+	border-bottom: 1px solid #999999;
+}
+#mainContent p {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+/* sidebar 1 */
+
+#sidebar1  p {
+	color: #333333;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 11px;
+}
+#sidebar1  a {
+	text-decoration: none;
+	color: #333333;
+}
+#sidebar1 .related {
+	margin-bottom: 10px;
+	padding-bottom: 45px;
+	background: #C9F173 url(../images/bg_related.png) no-repeat left bottom;
+}
+
+
+#sidebar1 .related li {
+	list-style: none;
+	display: inline;
+}
+#sidebar1 h2, #sidebar1 h3, #sidebar1 p {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#sidebar1  h2 {
+	color: #152C67;
+	padding-bottom: 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 100%;
+	background: url(../images/bg_relatedhead.gif) no-repeat right top;
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 13px;
+}
+#sidebar1 .related a {
+	display: block;
+	padding: 5px;
+	border-top: 1px solid #FFF;
+	text-decoration: none;
+}
+#sidebar1 .related a:hover {
+	background: #FFFFFF;
+}
+
+#sidebar1 .related ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+/* NEWS */
+
+#sidebar2 {
+	padding-bottom: 33px;
+	background: transparent url(../images/bg_news_btm.png) no-repeat left bottom;
+	border-left: 1px solid #C9F173;
+}
+
+
+#sidebar2 .story {
+	color: #333333;
+	padding: 3px 5px 10px 5px;
+	display: block;
+	text-decoration: none;
+	line-height: 110%;
+}
+#sidebar2 span.title {
+	font-weight: bold;
+	display: block;
+	line-height: 120%;
+	color: #ED6733;
+}
+#sidebar2 a.story:hover {
+	background-color: #EDEDED;
+}
+
+* html #sidebar2 a {
+	height: 1px;
+}
+#sidebar2 h2 {
+	color: #152C67;
+	padding-bottom: 10px;
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 100%;
+	background: url(../images/bg_aroundhead.gif) no-repeat right top;
+	padding-top: 13px;
+	padding-left: 5px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: 0;
+}
+#sidebar2 h3 {
+	background-color: #C9F173;
+	color: #333333;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 0;
+}
+
+
+/* ADVERTISING */
+div.natEx {
+	text-align: center;
+	margin-top: 5px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.natEx p {
+	margin-bottom: 5px;
+}
+#sidebar2 p {
+	font-size: 12px;
+}
+
+/* footer */
+#footer {
+	padding: 5px 0 40px 0;
+	border-top: 1px dashed #999999;
+	font-weight: bold;
+	color: #000000;
+	margin: 20px 0 0 170px;
+	clear: both;
+}
+
+
+#footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.featureHead {
+	background: url(../images/feature_bug.png) no-repeat right 0px;
+}
+
+.warning {
+	
+background: url(../images/warning.png) no-repeat left center;
+	
+padding-top: 2px;
+	
+padding-left: 30px;
+	
+border-bottom: 1px dotted #CCCCCC;
+}
+.clear {
+   height: 0;
+   font-size: 0;
+   clear: both;
+   visibility: hidden;
+	 background-color:red;
+}
+a img {
+	border-style: none;
+}
+.twoColFixLtHdr p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* store styles */
+
+/*product lists*/
+table.products td, table.products th {
+	text-align: left;
+	padding: 5px;
+	font-size: 14px;
+	border-bottom: 1px dashed #1E4199;
+}
+table.products {
+	border-left: 1px solid #1E4199;
+	border-top: 1px solid #1E4199;
+	margin-bottom: 8px;
+}
+table.products td {
+	border-right: 1px dashed #1E4199;
+}
+table.products th {
+	color: #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	background: url(../images/bg_legal.png);
+}
+
+
+/* on sale items */
+
+div.saleProduct {
+	padding-left: 0px;
+	padding-bottom: 5px;
+	float: left;
+	width: 270px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+div.saleProduct img {
+	float: left;
+	display: block;
+	border: 1px solid #000;
+	margin-right: 10px;
+}
+
+.saleProduct p, .saleProduct h3 {
+	margin-bottom: 0px;
+	margin-left: 72px;
+}
+div.saleProduct h3 {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+#saleArea {
+	float: right;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#mainContent .recordpaging {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#mainContent .recordsetTools {
+	position: relative;
+	margin: 5px 0 10px 5px;
+	font-size: 10px;
+	color: #333333;
+	zoom: 1;
+}
+#mainContent .recordsetTools p {
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+}
+.productImage {
+	float: right;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	border: 2px solid #152D6A;
+}
+#product #mainContent p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+.paging td {
+	font-size: 12px;
+	font-weight: bold;
+	width: 3em;
+	padding-right: 20px;
+}
+.description {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333333;
+	line-height: 1.5em;
+}
+
+/*input forms*/
+table.insertForm td, table.insertForm th {
+	text-align: left;
+	padding: 5px;
+	font-size: 14px;
+}
+table.insertForm {
+	margin-bottom: 8px;
+	padding: 0px;
+}
+table.insertForm td {
+
+}
+table.insertForm th {
+	color: #000000;
+	vertical-align: middle;
+	text-align: right;
+}
+table.insertForm table td, table.insertForm table th {
+	border: none;
+}
+#login {
+	text-align: right;
+	padding-right: 300px;
+	margin-top: 25px;
+	font-weight: bold;
+}

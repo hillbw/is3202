@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/bgPage.png);
+}
+
+h1 {
+	color: #779A00;
+	border-top: 7px solid #FF9933;
+	border-bottom: 2px solid #FC9D36;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 48px;
+	font-style: normal;
+	line-height: 90%;
+	font-weight: normal;
+	font-variant: normal;
+	margin-top: 0px;
+	padding: 10px 0px;
+}
+
+p {
+	margin-left: 75px;
+	font: 14px/150% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+}
+
+h2 {
+	color: #EC6206;
+	text-transform: uppercase;
+	font: 24px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	background-image: url('images/vet_logo.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px center;
+	padding: 10px 0px 10px 55px; 
+}
+
+.copyright {
+	font-size: 12px;
+	color: #666;
+	margin-top: 25px;
+	margin-left: 0px;
+	border-top: 1px dashed #93BD00;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #FFF;
+	padding: 15px;
+}
+
+.newsImage {
+	border: none;
+	margin-left: 50px;
+}
+
+.photoRight {
+	border: 2px solid black;
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	padding: 10px;
+}
